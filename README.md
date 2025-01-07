@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Your solution URL here](https://your-solution-url.com)
-- Live Site URL: [Your live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/nishanth1596/Order-summary-component)
+- Live Site URL: [live site URL](https://nishanth-order-submit-component.netlify.app/)
 
 ### Features
 
