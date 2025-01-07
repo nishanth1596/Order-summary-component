@@ -1,0 +1,64 @@
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem;
+  margin-bottom: 0;
+  padding: 1.0625rem 1rem 1rem 1rem;
+  background-color: var(--f7f9ff);
+  border-radius: 0.6875rem;
+}
+
+.icon {
+  width: 3rem;
+}
+
+.subHead {
+  font-weight: 900;
+  color: var(--1f2e55);
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
+
+.price {
+  font-weight: 500;
+  color: var(--717fa6);
+  font-size: 0.875rem;
+  line-height: 1.1875rem;
+}
+
+.link {
+  color: var(--382ae1);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.0625rem;
+}
+
+.link:hover,
+.link:active {
+  cursor: pointer;
+  color: var(--766cf1);
+  text-decoration: none;
+}
+
+@media (min-width: 42rem) {
+  .plan {
+    margin: 1.5rem 3rem 0 3rem;
+    padding: 1.5625rem 1.5rem;
+  }
+
+  .subHead {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+  }
+
+  .price {
+    font-size: 1rem;
+    line-height: 1.3125rem;
+  }
+
+  .link {
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+  }
+}

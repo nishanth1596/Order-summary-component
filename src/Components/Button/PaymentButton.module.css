@@ -1,0 +1,53 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment {
+  display: block;
+  background-color: var(--382ae1);
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0.6875rem;
+  box-shadow: 0 1.25rem 1.25rem 0 rgba(57, 42, 225, 19.03%);
+  padding: 0.9375rem 4rem 0.9375rem 4rem;
+  font-weight: 900;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: white;
+}
+
+.payment:hover,
+.payment:active {
+  background-color: var(--766cf1);
+  cursor: pointer;
+}
+
+.cancel {
+  margin: 1.5rem auto 2rem auto;
+  border: none;
+  background-color: white;
+  color: var(--717fa6);
+  font-weight: 900;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+.cancel:hover,
+.cancel:active {
+  color: var(--1f2e55);
+  cursor: pointer;
+}
+
+@media (min-width: 42rem) {
+  .payment {
+    margin-top: 2rem;
+    padding: 0.9375rem 6rem;
+  }
+
+  .cancel {
+    margin: 2rem auto 3rem auto;
+  }
+}
